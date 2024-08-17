@@ -45,6 +45,13 @@ def game_loop():
         x = input("enter the position number to enter the mark [1-9]");
         if (x == "q"):
             game_play = False
+        if(tictactoe.p[x] == " " or tictactoe.p[x] == "_"):
+            # here we will write a logic to decide whose turn is now. and based on that we will use the player.character
+            # to display the character in particular location.
+            # what can we do to track the turns.
+            # use a flag to indicate the turn or use the player character as an indication of turn
+            # lets say in a multiplayer game we can set the variable to the characters respective value. and use it to 
+            # display active character.
 
 
 
