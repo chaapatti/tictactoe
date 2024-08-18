@@ -51,15 +51,7 @@ def game_loop():
     tictactoe.board_display()
     player_one = Player()
     player_two = Player()
-#     print("""__|__|__
-# __|__|__
-#   |  |""")
 
-#     print("""  |  |
-# ----------
-#   |  |  
-# ---------
-#   |  |""")
     player_one.character = input("Please select a character for player 1: o , x ")
     if (player_one.character == "o"):
         player_two.character = "x"
@@ -67,7 +59,7 @@ def game_loop():
         player_two.character = "o"
 
     print(f"{player_one.character},  {player_two.character}")
-#implemting the character display on the grid
+    #implemting the character display on the grid
     plyr = player_one.character
     while(game_play):
         
